@@ -9,7 +9,7 @@ def home(request):
 
 
 def all_sightings(request):
-    squirrels = squirrels.objects.all()
+    squirrels = squirrel.objects.all()
     context = {
             'squirrels':squirrels
             }
