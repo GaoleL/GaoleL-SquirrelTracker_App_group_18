@@ -130,7 +130,6 @@ class squirrel(models.Model):
             max_length = 100,
             help_text=_('running from humans'),
             )
-
-
-
+def __str__(self):
+        return self.Unique_squirrel_id   
 # Create your models here.
