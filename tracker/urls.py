@@ -6,6 +6,6 @@ urlpatterns=[
 		path('',views.home),
         path('sightings/',views.all_sightings),
         path('sightings/add/',views.add,name='add'),
-
+        path('sightings/<squirrel_id>/', views.update,name='update'),
         
         ]
