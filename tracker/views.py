@@ -39,4 +39,20 @@ def add(request):
     else:
         form = Form()
         context = {'form':form,}
-        return render(request,'tracker/form.html',context)    
+        return render(request,'tracker/form.html',context)  
+
+def all_stats(request):
+    num_of_sightings = squirrel.objects.all().count()
+    AM_count = 0
+    PM_count = 0
+    for i in squirrel.objects.all():
+        if i.Shift == 'AM':
+            AM_count+=1
+        if i.Shift == 'PM':
+            PM_count+=1
+    context = {
+            'AM_count':AM_count,
+            'PM_count':PM_count,
+            'num_of_sightings':num_of_sightings,
+            }
+    return render(request, 'tracker/stats.html', context)
