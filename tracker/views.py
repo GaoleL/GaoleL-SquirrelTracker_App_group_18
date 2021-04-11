@@ -60,3 +60,10 @@ def all_stats(request):
             'chasing_count':chasing_count,
             }
     return render(request, 'tracker/stats.html', context)
+
+def squirrel_map(request):
+    sightings= squirrel.objects.all()[:100]
+    context ={
+            'sightings':sightings,
+             }
+    return render(request, 'tracker/map.html', context)
