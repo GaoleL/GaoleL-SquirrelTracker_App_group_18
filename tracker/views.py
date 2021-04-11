@@ -50,9 +50,13 @@ def all_stats(request):
             AM_count+=1
         if i.Shift == 'PM':
             PM_count+=1
+    gray_fur_count= squirrel.objects.filter(Primary_Fur_Color='Gray').count()
+    chasing_count=squirrel.objects.filter(Chasing='True').count()
     context = {
             'AM_count':AM_count,
             'PM_count':PM_count,
             'num_of_sightings':num_of_sightings,
+            'gray_fur_count':gray_fur_count,
+            'chasing_count':chasing_count,
             }
     return render(request, 'tracker/stats.html', context)
