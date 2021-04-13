@@ -4,7 +4,7 @@
 This project created a map to the known squirrels from 2018 Central Park Squirrel Census and created a list of details and features for each of them.
 
 ## Group and author
-Project group 18
+Project group 18,
 Gaole Lyu,uni:gl2704
 Qiyao Tan,uni:qt2138
 
