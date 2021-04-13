@@ -15,8 +15,12 @@ Export (export_squirrel_data) : To export the squirrel data in CSV format
 ## App links:
 Public Clone Repo Link:
 application main page: https://fast-audio-303116.uk.r.appspot.com/
+
 squirrel map page: https://fast-audio-303116.uk.r.appspot.com/map/?
+
 details page:https://fast-audio-303116.uk.r.appspot.com/sightings/?
+
 stats page:https://fast-audio-303116.uk.r.appspot.com/sightings/stats?
+
 
 
