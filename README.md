@@ -10,6 +10,7 @@ Qiyao Tan,uni:qt2138
 
 ## Management commands: 
 Import (import_squirrel_data): To import the data from the 2018 census file (in CSV format)
+
 Export (export_squirrel_data) : To export the squirrel data in CSV format
 
 ## App links:
