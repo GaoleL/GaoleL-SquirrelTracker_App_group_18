@@ -5,7 +5,7 @@ This project created a map to the known squirrels from 2018 Central Park Squirre
 
 ## Group and author
 Project group 18,
-Gaole Lyu,uni:gl2704
+Gaole Lyu,uni:gl2704,
 Qiyao Tan,uni:qt2138
 
 ## Management commands: 
